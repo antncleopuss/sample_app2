@@ -1,7 +1,13 @@
-<h1>Home</h1>
-<p>
-	This is the home page of the wonderful 
-	<a href="http://www.myfishbook.co.uk">MyFishBook</a>
-	muck about page, which we are making to have a go at the sample app rail 		
-	tutorial...matey
-</p>
+<div class="center hero-unit">
+	<h1>MyFishBook Home</h1>
+		<p>
+		This is the home page of the first social network for fishing folk -  
+		<a href="http://www.myfishbook.co.uk">MyFishBook!</a>
+		Here you can register and keep an online record of your catches, target  	
+		specific fish, find new fishing spots and tap into local knowledge 		
+		about how to fish them.
+		</p>
+	<%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+	<%= link_to image_tag("fishlogo.png", alt:"myfishbook"), 'http://www.myfishbook.co.uk/' %>
